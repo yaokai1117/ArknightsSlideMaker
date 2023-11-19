@@ -2,7 +2,7 @@ function createOneSlidePerRow() {
 
   // Replace <INSERT_SLIDE_DECK_ID> wih the ID of your 
   // Google Slides presentation.
-  let masterDeckID = "1BnNShfyl_Uf_vHm7lMFIKzP3OJInhV2qxV689kFMETA";
+  let masterDeckID = "{YOUR_SLIDE_ID_CAN_BE_FOUND_FROM_URL}";
 
   // Open the presentation and get the slides in it.
   let deck = SlidesApp.openById(masterDeckID);
